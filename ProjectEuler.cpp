@@ -14,6 +14,13 @@ int main()
 	cout << "Choose puzzle number: \n";
 	int PuzzleNumber;
 	cin >> PuzzleNumber;
+
+	switch (PuzzleNumber)
+	{
+	case 1:
+		Puzzle_01();
+		break;
+	}
 	
 
 	return 0;

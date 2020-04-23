@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ProjectEuler.cpp" />
+    <ClCompile Include="Puzzle01.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PuzzleHeader.h" />

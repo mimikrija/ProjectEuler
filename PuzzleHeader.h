@@ -1,3 +1,3 @@
 #pragma once
 
-//int Puzzle_01();
+void Puzzle_01();
