@@ -39,6 +39,15 @@ void Puzzle_01()
 
 	cout << "That sum is " << Solution << "!\n";
 
-	
+	// This is a simpler method without vectors, but you need to define Number and you need to manually increment.
+
+	int MoreSimpleSolution = 0;
+
+	int Number = 1;
+	while ( Number < 1000)
+	{
+		if (IsMultipleOf3Or5(Number)) MoreSimpleSolution += Number;
+		Number++;
+	}
 	
 }
